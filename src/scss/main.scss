@@ -91,6 +91,16 @@ body {
   font-size: 15.7px;
 }
 
+.card__sign-up {
+  background-color: variables.$bright-yellow;
+  border-radius: 5px;
+  color: variables.$white;
+  display: block;
+  padding: 14px 0;
+  text-decoration: none;
+  text-align: center;
+}
+
 @media screen and (min-width: 600px) {
   .cards {
     grid-template-areas: 
