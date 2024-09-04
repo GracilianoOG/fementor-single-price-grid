@@ -11,6 +11,11 @@ body {
 
 .cards {
   border-radius: 5px;
+  display: grid;
+  grid-template-areas: 
+    "community"
+    "subscription"
+    "whyUs";
   overflow: hidden;
   margin: 32px;
 }
@@ -20,13 +25,24 @@ body {
 
   &--community {
     background-color: variables.$white;
+    grid-area: community;
   }
 
   &--subscription {
     background-color: variables.$cyan;
+    grid-area: subscription;
   }
 
   &--why-us {
     background-color: variables.$light-cyan;
+    grid-area: whyUs;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .cards {
+    grid-template-areas: 
+    "community community" 
+    "subscription whyUs";
   }
 }
