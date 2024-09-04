@@ -76,6 +76,25 @@
     padding: 14px 0;
     text-decoration: none;
     text-align: center;
+    overflow: hidden;
+    position: relative;
+
+    &::after {
+      background-color: variables.$bright-yellow;
+      content: "";
+      display: block;
+      filter: brightness(1.08);
+      height: 100%;
+      opacity: 0.35;
+      position: absolute;
+      transition: width 450ms ease;
+      top: 0;
+      width: 0;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
   }
   
   // Card why us
