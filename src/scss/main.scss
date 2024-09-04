@@ -2,7 +2,11 @@
 @use "./variables";
 
 body {
+  align-items: center;
   background-color: variables.$light-gray;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .cards {
