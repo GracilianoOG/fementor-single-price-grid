@@ -73,6 +73,7 @@ body {
 .card_pricing {
   align-items: center;
   display: flex;
+  margin-bottom: 7px;
 }
 
 .card__fee {
@@ -84,6 +85,10 @@ body {
 .card__monthly {
   color: variables.$light-gray;
   font-size: 16px;
+}
+
+.card__daily {
+  font-size: 15.7px;
 }
 
 @media screen and (min-width: 600px) {
