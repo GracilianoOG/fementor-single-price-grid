@@ -57,6 +57,15 @@ body {
   grid-area: whyUs;
 }
 
+.card__title {
+  font-size: 17.7px;
+  margin-bottom: 32px;
+}
+
+.card__title--big {
+  font-size: 19.6px;
+}
+
 @media screen and (min-width: 600px) {
   .cards {
     grid-template-areas: "community community" "subscription whyUs";
