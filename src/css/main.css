@@ -117,6 +117,12 @@ body {
   text-align: center;
 }
 
+.card__benefit {
+  color: rgb(229, 239, 245);
+  font-size: 13.8px;
+  line-height: 1.45;
+}
+
 @media screen and (min-width: 600px) {
   .cards {
     grid-template-areas: "community community" "subscription whyUs";

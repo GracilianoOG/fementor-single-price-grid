@@ -102,6 +102,12 @@ body {
   text-align: center;
 }
 
+.card__benefit {
+  color: variables.$light-gray;
+  font-size: 13.8px;
+  line-height: 1.45;
+}
+
 @media screen and (min-width: 600px) {
   .cards {
     grid-template-areas: 
