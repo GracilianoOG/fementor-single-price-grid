@@ -44,6 +44,7 @@ body {
 
 .card {
   padding: 26px 23px 23px 23px;
+  max-width: 635px;
 }
 .card--community {
   background-color: rgb(255, 255, 255);
