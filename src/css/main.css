@@ -127,4 +127,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "community community" "subscription whyUs";
   }
+  .card {
+    padding: 40px;
+  }
 }/*# sourceMappingURL=main.css.map */
