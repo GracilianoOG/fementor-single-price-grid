@@ -43,11 +43,12 @@ body {
 }
 
 .card {
-  padding: 32px 23px;
+  padding: 26px 23px 23px 23px;
 }
 .card--community {
   background-color: rgb(255, 255, 255);
   grid-area: community;
+  padding: 28px 23px 32px 23px;
 }
 .card--subscription {
   background-color: rgb(42, 178, 175);
@@ -72,13 +73,14 @@ body {
 .card__trial-info {
   color: rgb(192, 223, 52);
   font-size: 15.5px;
-  margin-bottom: 20px;
+  margin-bottom: 19px;
+  line-height: 1.2;
 }
 
 .card__benefits-info {
   color: rgb(152, 166, 189);
   font-size: 13.75px;
-  line-height: 1.8;
+  line-height: 1.85;
 }
 
 .card_pricing {
