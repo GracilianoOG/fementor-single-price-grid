@@ -1,10 +1,22 @@
 @use "./reset";
+@use "./variables";
 
 .cards {
   margin: 32px;
 }
 
 .card {
-  background-color: rgb(0, 107, 179);
   padding: 32px 23px;
+
+  &--community {
+    background-color: variables.$white;
+  }
+
+  &--subscription {
+    background-color: variables.$cyan;
+  }
+
+  &--why-us {
+    background-color: variables.$light-cyan;
+  }
 }
