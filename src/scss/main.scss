@@ -1,10 +1,12 @@
 @use "./reset";
 @use "./variables";
+@use "./fonts";
 
 body {
   align-items: center;
   background-color: variables.$light-gray;
   display: flex;
+  font-family: "Karla", sans-serif;
   justify-content: center;
   min-height: 100vh;
 }

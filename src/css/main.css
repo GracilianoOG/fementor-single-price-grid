@@ -10,10 +10,25 @@ li {
   list-style: none;
 }
 
+@font-face {
+  font-display: swap;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/karla-v31-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/fonts/karla-v31-latin-700.woff2") format("woff2");
+}
 body {
   align-items: center;
   background-color: rgb(229, 239, 245);
   display: flex;
+  font-family: "Karla", sans-serif;
   justify-content: center;
   min-height: 100vh;
 }
