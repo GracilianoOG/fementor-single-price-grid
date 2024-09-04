@@ -47,7 +47,21 @@ body {
 }
 
 .card__title--big {
+  color: variables.$cyan;
   font-size: 19.6px;
+  margin-bottom: 25px;
+}
+
+.card__trial-info {
+  color: variables.$bright-yellow;
+  font-size: 15.5px;
+  margin-bottom: 20px;
+}
+
+.card__benefits-info {
+  color: variables.$grayish-blue;
+  font-size: 13.75px;
+  line-height: 1.8;
 }
 
 @media screen and (min-width: 600px) {
