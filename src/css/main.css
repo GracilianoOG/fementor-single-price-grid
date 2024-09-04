@@ -81,6 +81,10 @@ body {
   line-height: 1.8;
 }
 
+.card__title--subscription {
+  margin-bottom: 19px;
+}
+
 .card_pricing {
   align-items: center;
   display: flex;
