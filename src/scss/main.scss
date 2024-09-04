@@ -117,5 +117,17 @@ body {
 
   .card {
     padding: 40px;
+
+    &__title--big {
+      font-size: 23.5px;
+    }
+
+    &__trial-info {
+      font-size: 18.5px;
+    }
+
+    &__benefits-info {
+      font-size: 15.66px;
+    }
   }
 }

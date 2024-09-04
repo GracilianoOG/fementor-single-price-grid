@@ -130,4 +130,13 @@ body {
   .card {
     padding: 40px;
   }
+  .card__title--big {
+    font-size: 23.5px;
+  }
+  .card__trial-info {
+    font-size: 18.5px;
+  }
+  .card__benefits-info {
+    font-size: 15.66px;
+  }
 }/*# sourceMappingURL=main.css.map */
