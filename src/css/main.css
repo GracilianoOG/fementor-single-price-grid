@@ -124,6 +124,7 @@ body {
 
 @media screen and (min-width: 600px) {
   .cards {
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: "community community" "subscription whyUs";
   }
 }/*# sourceMappingURL=main.css.map */
