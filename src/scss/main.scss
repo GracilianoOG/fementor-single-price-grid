@@ -42,69 +42,71 @@ body {
     background-color: variables.$light-cyan;
     grid-area: whyUs;
   }
-}
 
-.card__title {
-  font-size: 17.7px;
-  margin-bottom: 19px;
-}
-
-.card__title--big {
-  color: variables.$cyan;
-  font-size: 19.6px;
-  margin-bottom: 25px;
-}
-
-.card__trial-info {
-  color: variables.$bright-yellow;
-  font-size: 15.5px;
-  margin-bottom: 19px;
-  line-height: 1.2;
-}
-
-.card__benefits-info {
-  color: variables.$grayish-blue;
-  font-size: 13.75px;
-  line-height: 1.85;
-}
-
-// Card subscription
-.card_pricing {
-  align-items: center;
-  display: flex;
-  margin-bottom: 7px;
-}
-
-.card__fee {
-  font-size: 32px;
-  font-weight: 700;
-  margin-right: 12px;
-}
-
-.card__monthly {
-  color: variables.$light-gray;
-  font-size: 16px;
-}
-
-.card__daily {
-  font-size: 15.7px;
-  margin-bottom: 30px;
-}
-
-.card__sign-up {
-  background-color: variables.$bright-yellow;
-  border-radius: 5px;
-  color: variables.$white;
-  display: block;
-  padding: 14px 0;
-  text-decoration: none;
-  text-align: center;
-}
-
-.card__benefit {
-  color: variables.$light-gray;
-  font-size: 13.8px;
-  line-height: 1.45;
+  &__title {
+    font-size: 17.7px;
+    margin-bottom: 19px;
+  }
+  
+  // Card community
+  &__title--big {
+    color: variables.$cyan;
+    font-size: 19.6px;
+    margin-bottom: 25px;
+  }
+  
+  &__trial-info {
+    color: variables.$bright-yellow;
+    font-size: 15.5px;
+    margin-bottom: 19px;
+    line-height: 1.2;
+  }
+  
+  &__benefits-info {
+    color: variables.$grayish-blue;
+    font-size: 13.75px;
+    line-height: 1.85;
+  }
+  
+  // Card subscription
+  &__pricing {
+    align-items: center;
+    display: flex;
+    margin-bottom: 7px;
+  }
+  
+  &__fee {
+    font-size: 32px;
+    font-weight: 700;
+    margin-right: 12px;
+  }
+  
+  &__monthly {
+    color: variables.$light-gray;
+    font-size: 16px;
+  }
+  
+  &__daily {
+    font-size: 15.7px;
+    margin-bottom: 30px;
+  }
+  
+  &__sign-up {
+    background-color: variables.$bright-yellow;
+    border-radius: 5px;
+    color: variables.$white;
+    display: block;
+    padding: 14px 0;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  // Card why us
+  &__benefit {
+    color: variables.$light-gray;
+    font-size: 13.8px;
+    line-height: 1.45;
+  }
 }
 
 @media screen and (min-width: 600px) {

@@ -59,53 +59,44 @@ body {
   background-color: rgb(74, 190, 189);
   grid-area: whyUs;
 }
-
 .card__title {
   font-size: 17.7px;
   margin-bottom: 19px;
 }
-
 .card__title--big {
   color: rgb(42, 178, 175);
   font-size: 19.6px;
   margin-bottom: 25px;
 }
-
 .card__trial-info {
   color: rgb(192, 223, 52);
   font-size: 15.5px;
   margin-bottom: 19px;
   line-height: 1.2;
 }
-
 .card__benefits-info {
   color: rgb(152, 166, 189);
   font-size: 13.75px;
   line-height: 1.85;
 }
-
-.card_pricing {
+.card__pricing {
   align-items: center;
   display: flex;
   margin-bottom: 7px;
 }
-
 .card__fee {
   font-size: 32px;
   font-weight: 700;
   margin-right: 12px;
 }
-
 .card__monthly {
   color: rgb(229, 239, 245);
   font-size: 16px;
 }
-
 .card__daily {
   font-size: 15.7px;
   margin-bottom: 30px;
 }
-
 .card__sign-up {
   background-color: rgb(192, 223, 52);
   border-radius: 5px;
@@ -115,7 +106,6 @@ body {
   text-decoration: none;
   text-align: center;
 }
-
 .card__benefit {
   color: rgb(229, 239, 245);
   font-size: 13.8px;
