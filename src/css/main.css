@@ -125,8 +125,10 @@ body {
   }
   .card__trial-info {
     font-size: 18.5px;
+    margin-bottom: 8px;
   }
   .card__benefits-info {
     font-size: 15.66px;
+    line-height: 1.7;
   }
 }/*# sourceMappingURL=main.css.map */
