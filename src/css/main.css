@@ -24,24 +24,6 @@ li {
   font-weight: 700;
   src: url("../assets/fonts/karla-v31-latin-700.woff2") format("woff2");
 }
-body {
-  align-items: center;
-  background-color: rgb(229, 239, 245);
-  color: rgb(255, 255, 255);
-  display: flex;
-  font-family: "Karla", sans-serif;
-  justify-content: center;
-  min-height: 100vh;
-}
-
-.cards {
-  border-radius: 5px;
-  display: grid;
-  grid-template-areas: "community" "subscription" "whyUs";
-  overflow: hidden;
-  margin: 32px;
-}
-
 .card {
   padding: 26px 23px 23px 23px;
   max-width: 635px;
@@ -113,10 +95,6 @@ body {
 }
 
 @media screen and (min-width: 600px) {
-  .cards {
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "community community" "subscription whyUs";
-  }
   .card {
     padding: 40px;
   }
@@ -130,5 +108,29 @@ body {
   .card__benefits-info {
     font-size: 15.66px;
     line-height: 1.7;
+  }
+}
+body {
+  align-items: center;
+  background-color: rgb(229, 239, 245);
+  color: rgb(255, 255, 255);
+  display: flex;
+  font-family: "Karla", sans-serif;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.cards {
+  border-radius: 5px;
+  display: grid;
+  grid-template-areas: "community" "subscription" "whyUs";
+  overflow: hidden;
+  margin: 32px;
+}
+
+@media screen and (min-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "community community" "subscription whyUs";
   }
 }/*# sourceMappingURL=main.css.map */
