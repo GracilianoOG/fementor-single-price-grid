@@ -60,7 +60,7 @@ body {
 
 .card__title {
   font-size: 17.7px;
-  margin-bottom: 32px;
+  margin-bottom: 19px;
 }
 
 .card__title--big {
@@ -79,10 +79,6 @@ body {
   color: rgb(152, 166, 189);
   font-size: 13.75px;
   line-height: 1.8;
-}
-
-.card__title--subscription {
-  margin-bottom: 19px;
 }
 
 .card_pricing {
