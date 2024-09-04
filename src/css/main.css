@@ -19,6 +19,8 @@ body {
 }
 
 .cards {
+  border-radius: 5px;
+  overflow: hidden;
   margin: 32px;
 }
 
