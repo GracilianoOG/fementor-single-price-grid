@@ -94,7 +94,7 @@ li {
   background-color: rgb(192, 223, 52);
   content: "";
   display: block;
-  filter: brightness(1.08);
+  filter: brightness(0.8);
   height: 100%;
   opacity: 0.35;
   position: absolute;
@@ -104,6 +104,10 @@ li {
 }
 .card__sign-up:hover::after {
   width: 100%;
+}
+.card__btn-text {
+  position: relative;
+  z-index: 1;
 }
 .card__benefit {
   color: rgb(229, 239, 245);
