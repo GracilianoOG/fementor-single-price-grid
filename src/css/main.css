@@ -24,6 +24,16 @@ li {
   font-weight: 700;
   src: url("../assets/fonts/karla-v31-latin-700.woff2") format("woff2");
 }
+@keyframes show-and-slide {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
 .card {
   padding: 26px 23px 23px 23px;
 }
@@ -174,16 +184,6 @@ body {
   max-width: 635px;
 }
 
-@keyframes show-and-slide {
-  from {
-    opacity: 0;
-    transform: translateX(-30px);
-  }
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
 @media screen and (min-width: 37.5rem) {
   .cards {
     border-radius: 8px;

@@ -1,6 +1,7 @@
 @use "./reset";
 @use "./variables";
 @use "./fonts";
+@use "./animations";
 @use "./card";
 
 body {
@@ -25,18 +26,6 @@ body {
   overflow: hidden;
   margin: 32px;
   max-width: 635px;
-}
-
-@keyframes show-and-slide {
-  from {
-    opacity: 0;
-    transform: translateX(-30px);
-  }
-
-  to {
-    opacity: 1;
-    transform: none;
-  }
 }
 
 @media screen and (min-width: variables.$breakpoint-sm) {
