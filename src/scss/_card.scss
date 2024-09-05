@@ -111,7 +111,7 @@
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: variables.$breakpoint-sm) {
   .card {
     padding: 40px;
 
