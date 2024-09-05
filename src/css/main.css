@@ -26,7 +26,6 @@ li {
 }
 .card {
   padding: 26px 23px 23px 23px;
-  max-width: 635px;
 }
 .card--community {
   background-color: rgb(255, 255, 255);
@@ -151,6 +150,7 @@ body {
   grid-template-areas: "community" "subscription" "whyUs";
   overflow: hidden;
   margin: 32px;
+  max-width: 635px;
 }
 
 @keyframes show-and-slide {
