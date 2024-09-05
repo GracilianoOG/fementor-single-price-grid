@@ -26,6 +26,7 @@ Your users should be able to:
 - [Frontend Mentor](https://www.frontendmentor.io/)
 - [Karla font](https://fonts.google.com/specimen/Karla?query=karla)
 - [Webfonts helper](https://gwfh.mranftl.com/fonts)
+- [Box Shadow Generator](https://cssgenerator.org/box-shadow-css-generator.html)
 
 ## 🧑🏻‍💻 Author
 
