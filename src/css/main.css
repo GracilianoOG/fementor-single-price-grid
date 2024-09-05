@@ -73,7 +73,7 @@ li {
   margin-right: 12px;
 }
 .card__monthly {
-  color: rgb(229, 239, 245);
+  color: rgba(229, 239, 245, 0.5);
   font-size: 16px;
 }
 .card__daily {
