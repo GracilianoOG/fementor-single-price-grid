@@ -52,9 +52,10 @@ li {
 }
 .card__trial-info {
   color: rgb(192, 223, 52);
-  font-size: 15.5px;
+  font-size: 14.7px;
+  font-weight: 700;
   margin-bottom: 19px;
-  line-height: 1.2;
+  line-height: 1.28;
 }
 .card__benefits-info {
   color: rgb(152, 166, 189);
@@ -123,7 +124,7 @@ li {
     font-size: 23.5px;
   }
   .card__trial-info {
-    font-size: 18.5px;
+    font-size: 17.6px;
     margin-bottom: 8px;
   }
   .card__benefits-info {
