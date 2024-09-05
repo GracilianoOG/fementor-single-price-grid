@@ -105,6 +105,7 @@
   
   // Card why us
   &__benefit {
+    --start-position: -20px;
     color: rgba(variables.$light-gray, 0.8);
     font-size: variables.$font-size-benefit-mobile;
     line-height: 1.45;

@@ -1,7 +1,7 @@
 @keyframes show-and-slide {
   from {
     opacity: 0;
-    transform: translateX(-30px);
+    transform: translateX(var(--start-position, -30px));
   }
 
   to {
