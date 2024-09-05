@@ -21,20 +21,20 @@
   }
 
   &__title {
-    font-size: 17.7px;
+    font-size: variables.$font-size-title-mobile;
     margin-bottom: 19px;
   }
   
   // Card community
   &__title--big {
     color: variables.$cyan;
-    font-size: 19.6px;
+    font-size: variables.$font-size-community-mobile;
     margin-bottom: 25px;
   }
   
   &__trial-info {
     color: variables.$bright-yellow;
-    font-size: 14.7px;
+    font-size: variables.$font-size-trial-mobile;
     font-weight: 700;
     margin-bottom: 19px;
     line-height: 1.28;
@@ -42,7 +42,7 @@
   
   &__benefits-info {
     color: variables.$grayish-blue;
-    font-size: 13.75px;
+    font-size: variables.$font-size-benefits-mobile;
     line-height: 1.85;
   }
   
@@ -54,18 +54,18 @@
   }
   
   &__fee {
-    font-size: 32px;
+    font-size: variables.$font-size-fee-mobile;
     font-weight: 700;
     margin-right: 12px;
   }
   
   &__monthly {
     color: rgba(variables.$light-gray, 0.5);
-    font-size: 16px;
+    font-size: variables.$font-size-monthly-mobile;
   }
   
   &__daily {
-    font-size: 15.7px;
+    font-size: variables.$font-size-daily-mobile;
     margin-bottom: 30px;
   }
   
@@ -107,7 +107,7 @@
   // Card why us
   &__benefit {
     color: rgba(variables.$light-gray, 0.8);
-    font-size: 13.8px;
+    font-size: variables.$font-size-benefit-mobile;
     line-height: 1.45;
   }
 }
@@ -117,16 +117,16 @@
     padding: 40px;
 
     &__title--big {
-      font-size: 23.5px;
+      font-size: variables.$font-size-community-desktop;
     }
 
     &__trial-info {
-      font-size: 17.6px;
+      font-size: variables.$font-size-trial-desktop;
       margin-bottom: 8px;
     }
 
     &__benefits-info {
-      font-size: 15.66px;
+      font-size: variables.$font-size-benefits-desktop;
       line-height: 1.7;
     }
   }
