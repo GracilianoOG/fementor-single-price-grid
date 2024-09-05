@@ -116,7 +116,7 @@ li {
   line-height: 1.45;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 37.5rem) {
   .card {
     padding: 40px;
   }
@@ -163,7 +163,7 @@ body {
     transform: none;
   }
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 37.5rem) {
   .cards {
     border-radius: 8px;
     grid-template-columns: 1fr 1fr;
