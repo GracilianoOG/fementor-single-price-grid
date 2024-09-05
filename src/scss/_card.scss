@@ -106,7 +106,7 @@
   
   // Card why us
   &__benefit {
-    color: variables.$light-gray;
+    color: rgba(variables.$light-gray, 0.8);
     font-size: 13.8px;
     line-height: 1.45;
   }

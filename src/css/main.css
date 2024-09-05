@@ -112,7 +112,7 @@ li {
   z-index: 1;
 }
 .card__benefit {
-  color: rgb(229, 239, 245);
+  color: rgba(229, 239, 245, 0.8);
   font-size: 13.8px;
   line-height: 1.45;
 }
