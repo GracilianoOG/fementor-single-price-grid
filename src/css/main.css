@@ -115,6 +115,27 @@ li {
   font-size: 0.8625rem;
   line-height: 1.45;
 }
+.card__benefit:nth-child(1) {
+  animation: show-and-slide 580ms;
+}
+.card__benefit:nth-child(2) {
+  animation: show-and-slide 660ms;
+}
+.card__benefit:nth-child(3) {
+  animation: show-and-slide 740ms;
+}
+.card__benefit:nth-child(4) {
+  animation: show-and-slide 820ms;
+}
+.card__benefit:nth-child(5) {
+  animation: show-and-slide 900ms;
+}
+.card__benefit:nth-child(6) {
+  animation: show-and-slide 980ms;
+}
+.card__benefit:nth-child(7) {
+  animation: show-and-slide 1060ms;
+}
 
 @media screen and (min-width: 37.5rem) {
   .card {

@@ -109,6 +109,12 @@
     font-size: variables.$font-size-benefit-mobile;
     line-height: 1.45;
   }
+
+  @for $i from 1 through 7 {
+    &__benefit:nth-child(#{$i}) {
+      animation: show-and-slide (500ms + 80ms * $i);
+    }
+  }
 }
 
 @media screen and (min-width: variables.$breakpoint-sm) {
