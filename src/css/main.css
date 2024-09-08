@@ -164,6 +164,20 @@ li {
     line-height: 1.7;
   }
 }
+.footer {
+  background-color: rgb(42, 178, 175);
+  bottom: 0;
+  color: rgb(255, 255, 255);
+  font-size: 0.875rem;
+  position: absolute;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+.footer__link {
+  color: rgb(255, 255, 255);
+}
+
 body {
   align-items: center;
   background-color: rgb(229, 239, 245);
@@ -172,6 +186,7 @@ body {
   font-family: "Karla", sans-serif;
   justify-content: center;
   min-height: 100vh;
+  position: relative;
 }
 
 .sr-only {
