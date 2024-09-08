@@ -193,7 +193,7 @@ body {
   display: grid;
   grid-template-areas: "community" "subscription" "whyUs";
   overflow: hidden;
-  margin: 32px;
+  margin: 72px 32px;
   max-width: 635px;
 }
 
